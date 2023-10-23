@@ -14,7 +14,7 @@ Also even when multiple directories deep such as /home/lecture1/messages, doing 
 
 PWD: /home
 
-For ls, if you input it with no argument then it will display the directories of the home directory /home which is just lecture1
+For ls, if you input it with no argument then it will display the files and directories of the home directory /home which is just lecture1
 if you do ls lecture1, then it will display all files and directories under lecture1, however if you do ls messages it will result in error. You are also ablew to change directories into lecture1 and do ls with no input and it will display the same information as doing ls lecture1 directly. To successfully do ls messages, you must input ls lecture1/messages which makes the absolute path /home/lecture1/messages
 ls with a file argument will not work such as ls Hello.java when your working directory is /home/lecture1 will result in it just saying the file name Hello.java. This is the same with other files when you attempt to ls them.
 
